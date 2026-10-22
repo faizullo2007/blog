@@ -29,6 +29,6 @@ def register(request):
                 work=data["work"],
                 hobby=data["hobby"],
             )
-            login(request, user)  # авто-вход после регистрации
+            login(request, user)
             return redirect("cabinet")
     return render(request, "registration.html", {"form": form})

@@ -1,12 +1,11 @@
-
 :root {
-    --red:        #e91d2a;  /* Dell red — CTA / wordmark / accents */
-    --ink:        #000000;  /* frame + hairlines */
-    --paper:      #ffffff;  /* canvas / surface */
-    --yellow:     #fcc20f;  /* sticker */
-    --purple:     #6a26a4;  /* stripe */
-    --link:       #0000ee;  /* classic web link blue */
-    --tint-sky:   #9ab6c8;  /* meta / ribbon tint */
+    --red:        #e91d2a;
+    --ink:        #000000;
+    --paper:      #ffffff;
+    --yellow:     #fcc20f;
+    --purple:     #6a26a4;
+    --link:       #0000ee;
+    --tint-sky:   #9ab6c8;
     --tint-sage:  #b3bd95;
     --tint-salmon:#d77a7a;
 
@@ -28,9 +27,8 @@ body {
     line-height: 1.4;
 }
 
-/* --- Black page frame around a fixed ~760px white canvas ----------------- */
 .page-frame {
-    max-width: 776px;          /* 760 canvas + 8+8 frame */
+    max-width: 776px;
     margin: 0 auto;
     background: var(--ink);
     padding: 8px;
@@ -41,7 +39,6 @@ body {
     border: 1px solid var(--ink);
 }
 
-/* --- Top banner + wordmark ---------------------------------------------- */
 .top-banner {
     background: var(--ink);
     color: var(--paper);
@@ -71,7 +68,6 @@ body {
     color: var(--paper);
 }
 
-/* --- Navigation: uppercase Helvetica label row -------------------------- */
 .main-nav {
     background: var(--ink);
     border-top: 1px solid var(--paper);
@@ -100,7 +96,6 @@ body {
 .main-nav form { display: inline-flex; align-items: center; margin: 0; }
 .nav-lang { margin-left: auto; }
 
-/* Logout button sits in the dark nav — make it a compact control */
 .main-nav button {
     font-family: var(--font-ui);
     font-size: 12px;
@@ -125,7 +120,6 @@ body {
     padding: 2px 4px;
 }
 
-/* --- Main content -------------------------------------------------------- */
 main { padding: 16px; }
 
 h1 {
@@ -156,11 +150,9 @@ h3 {
 
 p { margin: 0 0 10px; }
 
-/* Content text links: classic blue, underlined */
 main a { color: var(--link); text-decoration: underline; }
 main a:hover { color: var(--red); }
 
-/* User-card list */
 section ul {
     margin: 0 0 12px;
     padding: 0;
@@ -172,7 +164,6 @@ section ul li {
     font-size: 14px;
 }
 
-/* --- Post cards (ribbon-card primitive) --------------------------------- */
 article {
     border: 1px solid var(--ink);
     background: var(--paper);
@@ -210,7 +201,6 @@ article em {
     color: var(--purple);
 }
 
-/* --- Forms & controls: square, 1px black hairline ----------------------- */
 form p { margin: 0 0 10px; }
 
 label {
@@ -239,7 +229,6 @@ select {
 
 textarea { width: 100%; resize: vertical; }
 
-/* Primary buttons: black with white text; red on hover */
 button,
 input[type="submit"] {
     font-family: var(--font-ui);
@@ -260,7 +249,6 @@ input[type="submit"]:hover {
     border-color: var(--red);
 }
 
-/* Django form errors — in Dell red */
 .errorlist {
     list-style: none;
     margin: 2px 0;
@@ -271,7 +259,6 @@ input[type="submit"]:hover {
     font-weight: 700;
 }
 
-/* Red call-to-action panel (use sparingly, max one per page) */
 .cta-red {
     background: var(--red);
     color: var(--paper);
@@ -281,7 +268,6 @@ input[type="submit"]:hover {
 }
 .cta-red a { color: var(--paper); text-decoration: underline; }
 
-/* --- Footer band --------------------------------------------------------- */
 .footer-band {
     background: var(--paper);
     border-top: 1px solid var(--ink);
@@ -290,7 +276,6 @@ input[type="submit"]:hover {
     font-size: 12px;
 }
 
-/* --- Responsive: frame narrows, layout stays single column -------------- */
 @media (max-width: 768px) {
     .page-frame { padding: 4px; }
 }

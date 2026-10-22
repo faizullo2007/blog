@@ -1,10 +1,3 @@
-"""
-URL configuration for progect1 project.
-
-Каждая фича вынесена в отдельное приложение; их urls.py подключаются ниже.
-Имена маршрутов (home, login, cabinet, ...) остаются глобальными, без
-пространств имён, поэтому {% url 'name' %} в шаблонах работает как прежде.
-"""
 from django.contrib import admin
 from django.urls import include, path
 from django.conf.urls.i18n import i18n_patterns
