@@ -1,0 +1,23 @@
+{% load i18n %}
+<article>
+    <p>{{ post.text }}</p>
+    <small>
+        {{ post.created_at }} ·
+        {% trans "автор" %}:
+        <a href="{% url 'guest_room' post.author.username %}">{{ post.author.username }}</a> ·
+        {% trans "лайков" %}: {{ post.likes_count }}
+    </small>
+    {% if user.is_authenticated %}
+        {% if post.author_id != user.id %}
+            <form method="post" action="{% url 'like' post.pk %}" style="display:inline">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                <button type="submit">
+                    {% if post.liked %}{% trans "Убрать лайк" %}{% else %}{% trans "Лайк" %}{% endif %}
+                </button>
+            </form>
+        {% else %}
+            <em>{% trans "ваш пост" %}</em>
+        {% endif %}
+    {% endif %}
+</article>

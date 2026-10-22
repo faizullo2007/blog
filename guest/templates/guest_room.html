@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{{ owner.username }}{% endblock %}
+
+{% block content %}
+    <h1>{% trans "Профиль" %}: {{ owner.username }}</h1>
+
+    <section>
+        <h2>{{ profile.name }}</h2>
+        <ul>
+            <li>{% trans "Логин" %}: {{ owner.username }}</li>
+            <li>{% trans "Возраст" %}: {{ profile.age }}</li>
+            <li>{% trans "Работа" %}: {{ profile.work }}</li>
+            <li>{% trans "Увлечения" %}: {{ profile.hobby }}</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>{% trans "Посты" %}</h3>
+        {% for post in posts %}
+            {% include "_feed_post.html" %}
+        {% empty %}
+            <p>{% trans "Постов пока нет." %}</p>
+        {% endfor %}
+    </section>
+{% endblock %}

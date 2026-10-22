@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: progect1 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Имя"
+msgstr "Name"
+
+msgid "Живой журнал"
+msgstr "Live Journal"
+
+msgid "Главная"
+msgstr "Home"
+
+msgid "Интересное"
+msgstr "Interesting"
+
+msgid "Мой кабинет"
+msgstr "My account"
+
+msgid "Выйти"
+msgstr "Log out"
+
+msgid "Войти"
+msgstr "Log in"
+
+msgid "Создать аккаунт"
+msgstr "Create account"
+
+msgid "автор"
+msgstr "author"
+
+msgid "лайков"
+msgstr "likes"
+
+msgid "Убрать лайк"
+msgstr "Unlike"
+
+msgid "Лайк"
+msgstr "Like"
+
+msgid "ваш пост"
+msgstr "your post"
+
+msgid "Добро пожаловать!"
+msgstr "Welcome!"
+
+msgid "Регистрация"
+msgstr "Registration"
+
+msgid "Зарегистрироваться"
+msgstr "Sign up"
+
+msgid "Вход"
+msgstr "Sign in"
+
+msgid "Профиль"
+msgstr "Profile"
+
+msgid "Логин"
+msgstr "Login"
+
+msgid "Возраст"
+msgstr "Age"
+
+msgid "Работа"
+msgstr "Work"
+
+msgid "Увлечения"
+msgstr "Hobbies"
+
+msgid "Посты"
+msgstr "Posts"
+
+msgid "Постов пока нет."
+msgstr "No posts yet."
+
+msgid "Новый пост"
+msgstr "New post"
+
+msgid "Опубликовать"
+msgstr "Publish"
+
+msgid "Мои посты"
+msgstr "My posts"
+
+msgid "Удалить"
+msgstr "Delete"

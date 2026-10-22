@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: progect1 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uz\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Имя"
+msgstr "Ism"
+
+msgid "Живой журнал"
+msgstr "Jonli jurnal"
+
+msgid "Главная"
+msgstr "Bosh sahifa"
+
+msgid "Интересное"
+msgstr "Qiziqarli"
+
+msgid "Мой кабинет"
+msgstr "Mening kabinetim"
+
+msgid "Выйти"
+msgstr "Chiqish"
+
+msgid "Войти"
+msgstr "Kirish"
+
+msgid "Создать аккаунт"
+msgstr "Hisob yaratish"
+
+msgid "автор"
+msgstr "muallif"
+
+msgid "лайков"
+msgstr "layklar"
+
+msgid "Убрать лайк"
+msgstr "Laykni olib tashlash"
+
+msgid "Лайк"
+msgstr "Layk"
+
+msgid "ваш пост"
+msgstr "sizning postingiz"
+
+msgid "Добро пожаловать!"
+msgstr "Xush kelibsiz!"
+
+msgid "Регистрация"
+msgstr "Ro'yxatdan o'tish"
+
+msgid "Зарегистрироваться"
+msgstr "Ro'yxatdan o'tish"
+
+msgid "Вход"
+msgstr "Kirish"
+
+msgid "Профиль"
+msgstr "Profil"
+
+msgid "Логин"
+msgstr "Login"
+
+msgid "Возраст"
+msgstr "Yosh"
+
+msgid "Работа"
+msgstr "Ish"
+
+msgid "Увлечения"
+msgstr "Qiziqishlar"
+
+msgid "Посты"
+msgstr "Postlar"
+
+msgid "Постов пока нет."
+msgstr "Hozircha postlar yo'q."
+
+msgid "Новый пост"
+msgstr "Yangi post"
+
+msgid "Опубликовать"
+msgstr "E'lon qilish"
+
+msgid "Мои посты"
+msgstr "Mening postlarim"
+
+msgid "Удалить"
+msgstr "O'chirish"

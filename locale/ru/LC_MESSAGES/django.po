@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: progect1 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+
+msgid "Имя"
+msgstr "Имя"
+
+msgid "Живой журнал"
+msgstr "Живой журнал"
+
+msgid "Главная"
+msgstr "Главная"
+
+msgid "Интересное"
+msgstr "Интересное"
+
+msgid "Мой кабинет"
+msgstr "Мой кабинет"
+
+msgid "Выйти"
+msgstr "Выйти"
+
+msgid "Войти"
+msgstr "Войти"
+
+msgid "Создать аккаунт"
+msgstr "Создать аккаунт"
+
+msgid "автор"
+msgstr "автор"
+
+msgid "лайков"
+msgstr "лайков"
+
+msgid "Убрать лайк"
+msgstr "Убрать лайк"
+
+msgid "Лайк"
+msgstr "Лайк"
+
+msgid "ваш пост"
+msgstr "ваш пост"
+
+msgid "Добро пожаловать!"
+msgstr "Добро пожаловать!"
+
+msgid "Регистрация"
+msgstr "Регистрация"
+
+msgid "Зарегистрироваться"
+msgstr "Зарегистрироваться"
+
+msgid "Вход"
+msgstr "Вход"
+
+msgid "Профиль"
+msgstr "Профиль"
+
+msgid "Логин"
+msgstr "Логин"
+
+msgid "Возраст"
+msgstr "Возраст"
+
+msgid "Работа"
+msgstr "Работа"
+
+msgid "Увлечения"
+msgstr "Увлечения"
+
+msgid "Посты"
+msgstr "Посты"
+
+msgid "Постов пока нет."
+msgstr "Постов пока нет."
+
+msgid "Новый пост"
+msgstr "Новый пост"
+
+msgid "Опубликовать"
+msgstr "Опубликовать"
+
+msgid "Мои посты"
+msgstr "Мои посты"
+
+msgid "Удалить"
+msgstr "Удалить"

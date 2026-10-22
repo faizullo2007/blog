@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "Мой кабинет" %}{% endblock %}
+
+{% block content %}
+    <h1>{% trans "Мой кабинет" %}</h1>
+
+    <section>
+        <h2>{{ profile.name }}</h2>
+        <ul>
+            <li>{% trans "Логин" %}: {{ owner.username }}</li>
+            <li>{% trans "Возраст" %}: {{ profile.age }}</li>
+            <li>{% trans "Работа" %}: {{ profile.work }}</li>
+            <li>{% trans "Увлечения" %}: {{ profile.hobby }}</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>{% trans "Новый пост" %}</h3>
+        <form method="post" action="{% url 'cabinet' %}">
+            {% csrf_token %}
+            {{ form.non_field_errors }}
+            {{ form.as_p }}
+            <button type="submit">{% trans "Опубликовать" %}</button>
+        </form>
+    </section>
+
+    <section>
+        <h3>{% trans "Мои посты" %}</h3>
+        {% for post in posts %}
+            <article>
+                <p>{{ post.text }}</p>
+                <small>{{ post.created_at }} · {% trans "лайков" %}: {{ post.likes_count }}</small>
+                <form method="post" action="{% url 'delete_post' post.pk %}" style="display:inline">
+                    {% csrf_token %}
+                    <button type="submit">{% trans "Удалить" %}</button>
+                </form>
+            </article>
+        {% empty %}
+            <p>{% trans "Постов пока нет." %}</p>
+        {% endfor %}
+    </section>
+{% endblock %}
